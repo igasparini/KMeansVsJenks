@@ -12,7 +12,7 @@ Navigate to the project folder in the terminal and run the setup file to create 
 
 ## Explanation
 
-![Clustering Animation](clustering.gif)
+![Clustering Animation](output/clustering.gif)
 
 *Clustering Animation - some suboptimal clustering is visible in the KMeans implementation for the 30-35 range.*
 
