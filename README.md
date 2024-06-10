@@ -12,7 +12,9 @@ Navigate to the project folder in the terminal and run the setup file to create 
 
 ## Explanation
 
-![Clustering Animation - some suboptimal clustering is visible in the KMeans implementation for the 30-35 range.](clustering.gif)
+![Clustering Animation](clustering.gif)
+
+*Clustering Animation - some suboptimal clustering is visible in the KMeans implementation for the 30-35 range.*
 
 From [Jenks natural breaks vs K-means - Cross Validated](https://stats.stackexchange.com/questions/143007/jenks-natural-breaks-vs-k-means#:~:text=The%20Jenks%20natural%20breaks%20algorithm,they%20minimize%20within%20group%20distances.):
 
