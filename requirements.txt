@@ -1,0 +1,5 @@
+jenkspy==0.4.1
+matplotlib==3.5.2
+numpy==1.21.5
+rdata==0.11.2
+scikit_learn==1.0.2
