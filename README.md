@@ -12,7 +12,7 @@ Navigate to the project folder in the terminal and run the setup file to create 
 
 ## Explanation
 
-![Clustering Animation](clustering.gif)
+![Clustering Animation - some suboptimal clustering is visible in the KMeans implementation for the 30-35 range.](clustering.gif)
 
 From [Jenks natural breaks vs K-means - Cross Validated](https://stats.stackexchange.com/questions/143007/jenks-natural-breaks-vs-k-means#:~:text=The%20Jenks%20natural%20breaks%20algorithm,they%20minimize%20within%20group%20distances.):
 
@@ -22,13 +22,13 @@ The logic is that, even if two clusters are internally very compact, they may be
 
 Thus, for n data points and k clusters, K-means would minimize C:
 
-$$C = \sum_{j=1}^k \sum_{x\in S_j} \operatorname{dist}(x, c_j)$$
+$$C = \sum_{j=1}^k \sum_{x\in S_j} \mathrm{dist}(x, c_j)$$
 
 where $x$ is a data point in cluster $S_j$ and $c_j$ is the cluster center of cluster $S_j$.
 
 In contrast, the Jenks algorithm would minimize J:
 
-$$J = C - \sum_{j=1}^{k-1} \operatorname{dist}(c_{j+1}, c_j)$$
+$$J = C - \sum_{j=1}^{k-1} \mathrm{dist}(c_{j+1}, c_j)$$
 
 Jenks adds a penalty for the proximity between cluster centers themselves, preferring more separated clusters even if they are internally less compact.
 
