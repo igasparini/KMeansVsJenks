@@ -1,3 +1,4 @@
 *.rda
+.DS_Store
 rainfall_data.npy
 data_prep.ipynb
